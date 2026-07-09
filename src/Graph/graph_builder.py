@@ -54,6 +54,8 @@ class GraphBuilder:
         self.graph.add_edge("hindi_translation",END)
         self.graph.add_edge("french_translation",END)
 
+        return self.graph
+
 
     
     def setup_graph(self,usecase):
